@@ -1,0 +1,20 @@
+.card_logo{
+    width: 30px;
+    height: 30px;
+}
+
+.grafica_card{
+    width: 200px;
+    height: 100px;
+}
+
+.name_card{
+    font-size: small;
+}
+
+.negativos{
+    color:red;
+}
+.positivos{
+    color: #56D16F;
+}

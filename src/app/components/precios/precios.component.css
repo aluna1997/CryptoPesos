@@ -1,0 +1,24 @@
+#btc_logo{
+    width: 25px;
+    height: 25px;
+}
+
+#btc_grafica{
+    width: 200px;
+    height: 70px;
+}
+
+#buscar_activo{
+    margin-right: 10px;;
+}
+
+#dropdown_coin{
+    background-color: #56D16F;
+}
+
+.negativos{
+    color:red;
+}
+.positivos{
+    color: #56D16F;
+}

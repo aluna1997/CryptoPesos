@@ -1,0 +1,20 @@
+#img_logo{
+  width: 130px;
+  height: 80px;
+}
+
+#intercambio_container{
+  margin-top: 8%;
+}
+
+#nav_bar{
+  background-color: #F5F9FF;
+}
+
+.menu_option{
+  cursor: pointer;
+}
+
+#pantalla_actual{
+  margin-top: 5%;
+}

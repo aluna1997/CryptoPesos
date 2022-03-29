@@ -1,0 +1,27 @@
+
+<div class="container">
+    <table class="table table-bordered" id="precios_tabla">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Activo</th>
+                <th>Precio</th>
+                <th style="width: 120px;">Gráfica último mes</th>
+                <th>Cambio último día</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let precio of precios">
+                <td><img id="btc_logo" src="{{ precio.logo_link }}" alt=""></td>
+                <td>{{precio.symbol}}</td>
+                <td>{{precio.mxn}} MXN</td>
+                <td><img id="btc_grafica" src="{{ precio.grafica }}" alt=""></td>
+                <td *ngIf="precio.ult_dia < 0" class="negativos">{{precio.ult_dia}}</td>
+                <td *ngIf="precio.ult_dia > 0" class="positivos">+{{precio.ult_dia}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+  
+  
