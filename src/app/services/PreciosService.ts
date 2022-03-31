@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class PreciosService {
 
-  API_URI = 'http://localhost:5000/';
+  API_URI = 'https://cryptopesos-api.herokuapp.com/';
 
   constructor(private http: HttpClient) { }
 
